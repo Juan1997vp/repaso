@@ -1,0 +1,60 @@
+#{
+    margin:5px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: fasthand, cursive;
+}
+.header{
+    background-color: rgb(59, 158, 147);
+    height: 240px;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left:0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: white;
+}
+.logo{
+    font-size: 50px;
+    font-weight: border;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display:flex;
+    margin-right: 50px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link:hover{
+    background-color: aquamarine;
+
+}
+.nav-menu-limk{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border:3px;
+    font-size: 30px;
+    padding: 0 20px;
+}
